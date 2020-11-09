@@ -3,6 +3,29 @@
   border-radius: 50%;
 }
 
+.my-tags-list {
+  height: 270px;
+  overflow: scroll;
+  width: 240px;
+  overflow-x: hidden;
+}
+
+.aside1 a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+}
+
 .merch-text {
   color: blue;
 }
@@ -170,6 +193,184 @@ header {
   right: 3px;
   top: 3px;
   z-index: 1;
+}
+
+.main_menu {
+  background-color: #efefef;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main_menu .menu-tiempo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main_menu .menu-tiempo a {
+  color: black;
+  text-decoration: none;
+  font-size: x-small;
+}
+
+.main_menu .menu-tiempo a:hover {
+  -webkit-text-decoration: red;
+          text-decoration: red;
+}
+
+.main_menu title {
+  width: 20%;
+}
+
+.tarjeta {
+  border: 2px solid #efefef;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.tarjeta img {
+  width: 100%;
+}
+
+.Cuerpo_tarjeta {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Cuerpo_tarjeta .Profile-pic {
+  width: 10%;
+  height: 15%;
+  margin: 10px;
+  border: solid 1px black;
+  border-radius: 250px;
+}
+
+.Cuerpo_tarjeta .Profile-pic img {
+  border-radius: 250px;
+}
+
+.Cuerpo_tarjeta .body-card {
+  background-color: white;
+  width: 90%;
+}
+
+.Cuerpo_tarjeta .body-card #name {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
+  margin: 0;
+  padding: 0;
+}
+
+.Cuerpo_tarjeta .body-card #name:hover {
+  font-weight: bold;
+}
+
+.Cuerpo_tarjeta .body-card #date {
+  font-size: x-small;
+  color: black;
+}
+
+.Cuerpo_tarjeta .body-card #publicacion:hover {
+  color: blue;
+}
+
+.Cuerpo_tarjeta .body-card #tags {
+  font-size: small;
+}
+
+.Cuerpo_tarjeta .body-card #tags:hover {
+  font-weight: bold;
+}
+
+.footer-card {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-card #botones2 {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background-color: white;
+}
+
+.footer-card #botones2 p {
+  font-size: x-small;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: 2px;
+  margin-right: 5px;
+}
+
+.footer-card #botones2 button {
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  background-color: #efefef;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.footer-card #botones2 button:hover {
+  background-color: gray;
+}
+
+.footer-card #botones1 img {
+  width: 30%;
+}
+
+.footer-card #botones1 img:hover {
+  width: 33%;
+}
+
+.list-group-news {
+  background-color: #f9fafa;
+}
+
+.list-group-news a:hover {
+  background-color: white;
+}
+
+.footer a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+.comments {
+  font-size: 90%;
+  color: gray;
 }
 
 body {
