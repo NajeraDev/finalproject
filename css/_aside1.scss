@@ -1,0 +1,92 @@
+.profile{
+    height: 60px;
+    border-radius: 50%;
+
+}
+
+.merch-text{
+    color: blue;
+}
+
+li{
+    text-decoration: none;
+    color: black;
+}
+
+img:hover{
+    color: blue;
+    pointer-events: visible;
+}
+
+.merch{
+    max-width: 240px !important;
+    border-radius: 15px;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: black;
+    text-decoration: none;
+    background-color:#d2d6db;
+}
+
+details a:hover{
+    background-color:#d2d6db;
+}
+
+.archive{
+    list-style-image: url(/resources/aside1/losbuenos/drawer.svg);
+    
+}
+
+.Listings{
+    list-style-image: url(/resources/aside1/losbuenos/listing.svg);
+}
+
+.Podcasts{
+    list-style-image: url(/resources/aside1/losbuenos/mic.svg);
+}
+
+.Videos{
+    list-style-image: url(/resources/aside1/losbuenos/camera.svg);
+}
+
+.Tags{
+    list-style-image: url(/resources/aside1/losbuenos/tag.svg);
+}
+
+.Conduct{
+    list-style-image: url(/resources/aside1/losbuenos/thumb-up.svg);
+}
+
+.FAQ{
+    list-style-image: url(/resources/aside1/losbuenos/bulb.svg);
+}
+
+.DEV{
+    list-style-image: url(/resources/aside1/losbuenos/shopping.svg);
+}
+
+.Sponsors{
+    list-style-image: url(/resources/aside1/losbuenos/heart.svg);
+}
+
+.About{
+    list-style-image: url(/resources/aside1/losbuenos/rainbowdev.svg);
+}
+
+.Privacy{
+    list-style-image: url(/resources/aside1/losbuenos/smart.svg);
+}
+
+.Terms{
+    list-style-image: url(/resources/aside1/losbuenos/look.svg);
+}
+
+.Contact{
+    list-style-image: url(/resources/aside1/losbuenos/contact.svg);
+}
+
