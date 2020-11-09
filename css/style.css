@@ -373,6 +373,10 @@ header {
   color: gray;
 }
 
+.footer {
+  background-color: #d2d6db;
+}
+
 body {
   background-color: #eef0f1;
 }
