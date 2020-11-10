@@ -1,0 +1,137 @@
+.post-reactions{
+    height: 50vh;
+    position: fixed;
+}
+
+.bluemarino{
+    color: white;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+}
+.bluecielo{
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+}
+.green{
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+}
+.post-autor-image{
+    width: 30px !important;
+    height: 30px;
+    border-radius: 50%;
+
+}
+.Subscribe{
+    height: 40px;
+    width: 120px;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid lightgray;
+}
+.discussion{
+    background-color: white;
+}
+.input-img{
+    height: 30px;
+    width: 30px !important;
+    border-radius: 50%;
+}
+.add-to-the-discussion{
+    border-radius: 10px;
+    border: 1px solid lightgray ;
+}
+
+.alex-parra-img{
+    height: 30px;
+    width: 30px !important;
+    border-radius: 50%;
+}
+.alex-parra-social{
+    height: 20px;
+    width: 20px !important;
+}
+
+.alex-parra{
+    border-radius: 5px;
+}
+
+.heart-social{
+    height: 30px;
+    width: 30px !important;
+}
+
+.suggestion-img{
+    height: 60px;
+    width: 60px !important;
+    border-radius: 50%;
+}
+
+.read-next{
+    background-color: white;
+}
+
+.card1{
+    border:1px solid grey;
+    border-radius: 5px;
+    color: gray;
+    background-color: white;
+    div{
+        background-color: black;
+        position: relative;
+    }
+    img{
+        width: 15% !important;
+        height: 10%px;
+        border: black solid 1px;
+        border-radius: 250px;
+        position: absolute;
+        top:8px;
+        margin-left: 5px;
+    }
+    h6{
+        text-align: center;
+        font-weight: bold;
+    }
+    p{
+        margin:10px;
+    }
+    button{
+        text-align: center;
+        background-color: blue;
+        color: white;
+        border-radius: 5px;
+        margin: 5px;
+        border: none;
+        width: 93%;
+        padding: 5px;
+        font-size: large;
+        font-weight: bold;
+    }
+}
+.card2{
+    border:1px gray solid;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px 10px;
+    background-color: white;
+    font-size: medium;
+    div{
+        color: grey;
+        text-decoration: none;
+        padding: 10 px;
+        a{
+            color: grey;
+        }
+    }
+    div:hover{
+        font-weight: bold;
+        text-decoration: none;
+        a:hover{
+            text-decoration: none;
+        }
+    }
+}
